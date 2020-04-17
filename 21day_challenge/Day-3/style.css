@@ -1,19 +1,32 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-body { 
-    margin: 0;
-    font-family: sans-serif;
-} 
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
 
 .container {
-    width: 80%;
-    max-width: 750px;
-    margin: 0 auto;
-    background: #23424A;
-    color: white;
-    padding: 50px 0; 
+  width: 100%;
+  /* max-width: 750px; */
+
+  background: #23424a;
+  color: white;
+  padding: 50px 0;
 }
 
 .intro-content {
-    width: 50%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.intro-content p,
+.intro-content h1 {
+  width: 50%;
+}
+
+.more-content {
+  width: 50%;
+  margin: 0 auto;
 }
