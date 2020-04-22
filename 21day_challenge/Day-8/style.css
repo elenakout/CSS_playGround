@@ -40,6 +40,11 @@ h2 {
   font-weight: 900;
 }
 
+section {
+  padding: 3em 0;
+  text-align: center;
+}
+
 .container {
   width: 80%;
   max-width: 1100px;
@@ -49,7 +54,6 @@ h2 {
 .row {
   /* display: flex => flex container */
   display: flex;
-  padding: 60px 0;
 
   /* can't use yet */
   /* gap: 100px; */
@@ -57,7 +61,6 @@ h2 {
 
 .col {
   /* these are now flex items */
-  text-align: center;
   width: 100%;
 }
 
@@ -95,7 +98,7 @@ h2 {
   opacity: 0.75;
 }
 
-.section {
+.two-col {
   color: white;
   background: #136c72;
 }
