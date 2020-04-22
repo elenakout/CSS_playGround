@@ -54,6 +54,10 @@ h1 {
   width: 100%;
 }
 
+.col + .col {
+  margin-left: 30px;
+}
+
 .hero {
   padding: 100px 0;
   background-color: #23424a;
@@ -66,6 +70,20 @@ h1 {
 
 .hero p {
   margin-bottom: 3em;
+}
+
+section {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.two-col {
+  background: #136c72;
+  color: white;
+}
+
+.accent-text {
+  color: #87629a;
 }
 
 .btn {
