@@ -38,10 +38,6 @@ h2 {
   font-weight: 900;
 }
 
-section {
-  padding: 3.5em 0;
-}
-
 .container {
   width: 80%;
   max-width: 1100px;
@@ -105,19 +101,20 @@ section {
   opacity: 0.75;
 }
 
-.column__first {
+main {
+  margin: 3em;
+}
+
+.primary-content {
   width: 62%;
-}
-
-.column__first h2 {
-  color: #136c72;
-}
-
-.column__first p {
   color: #3a3a3a;
 }
 
-.column__second {
+.section-title {
+  color: #136c72;
+}
+
+.sidebar {
   background: #136c72;
   color: white;
   width: 32%;
