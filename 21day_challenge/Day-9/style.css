@@ -113,6 +113,10 @@ section {
   color: #136c72;
 }
 
+.column__first p {
+  color: #3a3a3a;
+}
+
 .column__second {
   background: #136c72;
   color: white;
