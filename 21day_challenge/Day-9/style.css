@@ -33,6 +33,15 @@ h1 {
   margin-top: 0;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+section {
+  padding: 3.5em 0;
+}
+
 .container {
   width: 80%;
   max-width: 1100px;
@@ -55,6 +64,10 @@ h1 {
 
 .col + .col {
   margin-left: 30px;
+}
+
+.txt-center {
+  text-align: center;
 }
 
 .hero {
@@ -90,4 +103,19 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.column__first {
+  width: 62%;
+}
+
+.column__first h2 {
+  color: #136c72;
+}
+
+.column__second {
+  background: #136c72;
+  color: white;
+  width: 32%;
+  padding: 2em;
 }
