@@ -16,6 +16,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
 }
 
 body {
@@ -36,6 +37,30 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: 900;
+}
+
+.section-title {
+  color: #87629a;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+.main {
+  padding-top: 3rem;
 }
 
 .container {
@@ -85,38 +110,14 @@ h2 {
   margin-bottom: 3em;
 }
 
-.btn {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #23424a;
-  font-weight: 900;
-  background-color: #38cfd9;
-  padding: 0.75em 2em;
-  border-radius: 100px;
-}
-
-.btn:hover,
-.btn:focus {
-  opacity: 0.75;
-}
-
-main {
-  margin: 3em;
-}
-
 .primary-content {
   width: 62%;
   color: #3a3a3a;
-}
-
-.section-title {
-  color: #136c72;
 }
 
 .sidebar {
   background: #136c72;
   color: white;
   width: 32%;
-  padding: 2em;
+  padding: 1em;
 }
