@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Variables Decleration */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Playfair Display', serif;
+  --clr-primary: #824936;
+  --clr-secondary: #222c2a;
+  --clr-light: #f3eed9;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--clr-secondary);
+}
+
+img {
+  /* All images should be 100% of their parent container */
+  width: 100%;
+  /* Or we can use max-width so that they shrink as much as they want but they don't cause overflow */
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem; /* 16px */
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
