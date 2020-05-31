@@ -52,16 +52,36 @@ p {
   justify-content: space-between;
 }
 
+.content--colum {
+  flex-direction: column;
+}
+.heading {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  font-size: 3.6rem;
+  color: var(--clr-primary);
+  margin-bottom: 2.5rem;
+}
+
+.heading--light {
+  color: var(--clr-light);
+}
+
 .text {
   font-size: 21px;
   text-align: start;
-  width: 47%;
+
   line-height: 3rem;
   color: var(--clr-light);
 }
 
 .text--dark {
   color: var(--clr-secondary);
+  width: 47%;
+}
+
+.image {
+  width: 45%;
 }
 
 .hero {
@@ -99,14 +119,11 @@ p {
   text-align: center;
 }
 
-.heading {
-  font-family: var(--secondary-font);
-  font-weight: 900;
-  font-size: 3.6rem;
-  color: var(--clr-primary);
-  margin-bottom: 2.5rem;
+.second {
+  background-color: var(--clr-secondary);
+  padding: 7rem;
 }
 
-.heading--light {
-  color: var(--clr-light);
+.row {
+  display: flex;
 }
