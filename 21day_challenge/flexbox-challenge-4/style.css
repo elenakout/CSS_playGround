@@ -22,6 +22,7 @@ html {
 body {
   font-family: var(--main-font);
   color: var(--clr-secondary);
+  width: 100vw;
 }
 
 img {
@@ -43,4 +44,34 @@ p {
   width: 80%;
   max-width: 1128px;
   margin: 0 auto;
+}
+
+.hero {
+  background-color: var(--clr-light);
+  width: 100%;
+  min-height: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__container {
+  width: 50%;
+  text-align: center;
+}
+
+.hero__subtitle {
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero__title {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  font-size: 6rem;
+  color: var(--clr-primary);
 }
