@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  column-width: 10em;
+}
+
+div {
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center;
+  margin: 0.3em;
+  height: 10em;
+  width: 100%;
+  display: inline-block;
+}
+
+div:nth-child(2n) {
+  height: 15em;
+}
+
+div:nth-child(3n) {
+  height: 13em;
+}
+
+div:nth-child(4n) {
+  height: 12em;
+}
+
+div:nth-child(5n) {
+  height: 17em;
+}
+
+div:nth-child(6n) {
+  height: 20em;
+}
